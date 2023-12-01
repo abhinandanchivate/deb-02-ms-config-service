@@ -1,0 +1,17 @@
+server:
+  port: 8762
+
+  #app name
+spring:
+  application:
+    name: CONFIG-SERVER
+#config details
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/abhinandanchivate/dnb-ms-02-config
+          username: abhinandanchivate
+          password: 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
+          clone-on-start: true
